@@ -19,7 +19,17 @@ PIP_PACKAGES=(
 )
 
 NODES=(
-    
+    "https://github.com/crystian/ComfyUI-Crystools"
+    "https://github.com/cubiq/ComfyUI_essentials"
+    "https://github.com/chibiace/ComfyUI-Chibi-Nodes"
+    "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
+    "https://github.com/kijai/ComfyUI-CCSR"
+    "https://github.com/kijai/ComfyUI-SUPIR"
+    "https://github.com/KoreTeknology/ComfyUI-Universal-Styler"
+    "https://github.com/dicksondickson/ComfyUI-Dickson-Nodes"
+    "https://github.com/TTPlanetPig/Comfyui_TTP_Toolset"
+    "https://github.com/TTPlanetPig/Comfyui_TTP_CN_Preprocessor"
+    "https://github.com/filliptm/ComfyUI_Fill-Nodes"
 )
 
 CHECKPOINT_MODELS=(
