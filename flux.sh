@@ -39,6 +39,7 @@ NODES=(
 CHECKPOINT_MODELS=(
     "https://huggingface.co/Kijai/SUPIR_pruned/resolve/main/SUPIR-v0Q_fp16.safetensors"
     "https://huggingface.co/camenduru/CCSR/resolve/main/real-world_ccsr.ckpt"
+    "https://huggingface.co/alexgenovese/reica_models/resolve/main/realvisxlV40_v40LightningBakedvae.safetensors"
 )
 
 CLIP_MODELS=(
@@ -59,10 +60,12 @@ LORA_MODELS=(
 ESRGAN_MODELS=(
     #"https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x4.pth"
     #"https://huggingface.co/FacehugmanIII/4x_foolhardy_Remacri/resolve/main/4x_foolhardy_Remacri.pth"
+    "https://huggingface.co/datasets/mpiquero/Upscalers/resolve/main/8x_NMKD-Faces_160000_G.pth"
     "https://huggingface.co/Akumetsu971/SD_Anime_Futuristic_Armor/resolve/main/4x_NMKD-Siax_200k.pth"
 )
 
 CONTROLNET_MODELS=(
+    "https://huggingface.co/TTPlanet/TTPLanet_SDXL_Controlnet_Tile_Realistic/resolve/main/TTPLANET_Controlnet_Tile_realistic_v2_fp16.safetensors"
 )
 
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
