@@ -30,6 +30,10 @@ NODES=(
     "https://github.com/TTPlanetPig/Comfyui_TTP_Toolset"
     "https://github.com/TTPlanetPig/Comfyui_TTP_CN_Preprocessor"
     "https://github.com/filliptm/ComfyUI_Fill-Nodes"
+    "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
+    "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
+    "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
+    "https://github.com/rgthree/rgthree-comfy"
 )
 
 CHECKPOINT_MODELS=(
