@@ -2,7 +2,7 @@
 
 # This file will be sourced in init.sh
 
-# https://raw.githubusercontent.com/sunboy99/vast/main/flux.sh
+# https://raw.githubusercontent.com/sunboy99/vast/main/flux1upscale.sh
 
 # Design for upscale workflow
 
@@ -26,7 +26,7 @@ NODES=(
     "https://github.com/chibiace/ComfyUI-Chibi-Nodes"
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
     #"https://github.com/kijai/ComfyUI-CCSR"
-    "https://github.com/kijai/ComfyUI-SUPIR"
+    #"https://github.com/kijai/ComfyUI-SUPIR"
     "https://github.com/KoreTeknology/ComfyUI-Universal-Styler"
     "https://github.com/dicksondickson/ComfyUI-Dickson-Nodes"
     "https://github.com/TTPlanetPig/Comfyui_TTP_Toolset"
@@ -42,7 +42,7 @@ NODES=(
 )
 
 CHECKPOINT_MODELS=(
-    "https://huggingface.co/Kijai/SUPIR_pruned/resolve/main/SUPIR-v0Q_fp16.safetensors"
+    #"https://huggingface.co/Kijai/SUPIR_pruned/resolve/main/SUPIR-v0Q_fp16.safetensors"
     #"https://huggingface.co/camenduru/CCSR/resolve/main/real-world_ccsr.ckpt"
     #"https://huggingface.co/alexgenovese/reica_models/resolve/main/realvisxlV40_v40LightningBakedvae.safetensors"
 )
