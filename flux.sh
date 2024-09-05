@@ -2,7 +2,7 @@
 
 # This file will be sourced in init.sh
 
-# https://raw.githubusercontent.com/sunboy99/vast/main/flux.sh
+# https://raw.githubusercontent.com/sunboy99/vast/main/flux1upscale.sh
 
 # Packages are installed after nodes so we can fix them...
 
@@ -34,6 +34,8 @@ NODES=(
     "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
     "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
     "https://github.com/rgthree/rgthree-comfy"
+    "https://github.com/city96/ComfyUI-GGUF"
+    "https://github.com/shiimizu/ComfyUI-TiledDiffusion"
 )
 
 CHECKPOINT_MODELS=(
@@ -49,6 +51,7 @@ CLIP_MODELS=(
 )
 
 UNET_MODELS=(
+    "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-F16.gguf"
 )
 
 VAE_MODELS=(
