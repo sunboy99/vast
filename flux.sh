@@ -53,7 +53,6 @@ CLIP_MODELS=(
 )
 
 UNET_MODELS=(
-    "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-F16.gguf"
 )
 
 VAE_MODELS=(
