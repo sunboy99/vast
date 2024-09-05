@@ -2,11 +2,13 @@
 
 # This file will be sourced in init.sh
 
-# https://raw.githubusercontent.com/sunboy99/vast/main/flux1upscale.sh
+# https://raw.githubusercontent.com/sunboy99/vast/main/flux.sh
+
+# Design for upscale workflow
 
 # Packages are installed after nodes so we can fix them...
 
-DEFAULT_WORKFLOW="https://raw.githubusercontent.com/ai-dock/comfyui/main/config/workflows/flux-comfyui-example.json"
+DEFAULT_WORKFLOW="https://raw.githubusercontent.com/sunboy99/vast/main/flux1-Iterative_Upscale.json"
 
 APT_PACKAGES=(
     #"package-1"
