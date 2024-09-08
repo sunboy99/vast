@@ -61,7 +61,7 @@ VAE_MODELS=(
 )
 
 LORA_MODELS=(
-    "https://huggingface.co/Shakker-Labs/FLUX.1-dev-LoRA-add-details/resolve/main/FLUX-dev-lora-add_details.safetensors"
+    #"https://huggingface.co/Shakker-Labs/FLUX.1-dev-LoRA-add-details/resolve/main/FLUX-dev-lora-add_details.safetensors"
 )
 
 ESRGAN_MODELS=(
