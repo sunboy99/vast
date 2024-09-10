@@ -26,12 +26,12 @@ NODES=(
     "https://github.com/chibiace/ComfyUI-Chibi-Nodes"
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
     #"https://github.com/kijai/ComfyUI-CCSR"
-    "https://github.com/kijai/ComfyUI-SUPIR"
-    "https://github.com/KoreTeknology/ComfyUI-Universal-Styler"
+    #"https://github.com/kijai/ComfyUI-SUPIR"
+    #"https://github.com/KoreTeknology/ComfyUI-Universal-Styler"
     "https://github.com/dicksondickson/ComfyUI-Dickson-Nodes"
-    "https://github.com/TTPlanetPig/Comfyui_TTP_Toolset"
+    #"https://github.com/TTPlanetPig/Comfyui_TTP_Toolset"
     #"https://github.com/TTPlanetPig/Comfyui_TTP_CN_Preprocessor"
-    "https://github.com/filliptm/ComfyUI_Fill-Nodes"
+    #"https://github.com/filliptm/ComfyUI_Fill-Nodes"
     "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
     "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
     "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
@@ -39,22 +39,29 @@ NODES=(
     "https://github.com/city96/ComfyUI-GGUF"
     "https://github.com/shiimizu/ComfyUI-TiledDiffusion"
     "https://github.com/ltdrdata/ComfyUI-Inspire-Pack"
+    "https://github.com/BlenderNeko/ComfyUI_Noise"
+    "https://github.com/WASasquatch/was-node-suite-comfyui"
+    "https://github.com/EllangoK/ComfyUI-post-processing-nodes"
+    "https://github.com/giriss/comfy-image-saver"
+    "https://github.com/chrisgoringe/cg-noisetools"
+    "https://github.com/glifxyz/ComfyUI-GlifNodes"
 )
 
 CHECKPOINT_MODELS=(
-    "https://huggingface.co/Kijai/SUPIR_pruned/resolve/main/SUPIR-v0Q_fp16.safetensors"
+    #"https://huggingface.co/Kijai/SUPIR_pruned/resolve/main/SUPIR-v0Q_fp16.safetensors"
     #"https://huggingface.co/camenduru/CCSR/resolve/main/real-world_ccsr.ckpt"
     #"https://huggingface.co/alexgenovese/reica_models/resolve/main/realvisxlV40_v40LightningBakedvae.safetensors"
 )
 
 CLIP_MODELS=(
-    "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors"
+    #"https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors"
     "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn.safetensors"
-    "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
+    #"https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
+    "https://huggingface.co/zer0int/CLIP-GmP-ViT-L-14/resolve/main/ViT-L-14-TEXT-detail-improved-hiT-GmP-TE-only-HF.safetensors"
 )
 
 UNET_MODELS=(
-  "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q8_0.gguf"
+  #  "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-F16.gguf"
 )
 
 VAE_MODELS=(
@@ -85,7 +92,7 @@ function provisioning_start() {
 
     # Get licensed models if HF_TOKEN set & valid
     if provisioning_has_valid_hf_token; then
-        UNET_MODELS+=("https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-F16.gguf")
+        UNET_MODELS+=("https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q8_0.gguf")
         VAE_MODELS+=("https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/ae.safetensors")
     else
         UNET_MODELS+=("https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/flux1-schnell.safetensors")
