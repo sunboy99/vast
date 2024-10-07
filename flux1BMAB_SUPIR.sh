@@ -22,11 +22,16 @@ PIP_PACKAGES=(
 
 NODES=(
     "https://github.com/crystian/ComfyUI-Crystools"
-    "https://github.com/cubiq/ComfyUI_essentials"
-    "https://github.com/chibiace/ComfyUI-Chibi-Nodes"
-    "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
+    "https://github.com/Fannovel16/comfyui_controlnet_aux"
+    "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
+    "https://github.com/WASasquatch/was-node-suite-comfyui"
+    "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
+    "https://github.com/giriss/comfy-image-saver"
+    #"https://github.com/cubiq/ComfyUI_essentials"
+    #"https://github.com/chibiace/ComfyUI-Chibi-Nodes"
+    #"https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
     #"https://github.com/kijai/ComfyUI-CCSR"
-    "https://github.com/kijai/ComfyUI-SUPIR"
+    #"https://github.com/kijai/ComfyUI-SUPIR"
     #"https://github.com/KoreTeknology/ComfyUI-Universal-Styler"
     "https://github.com/dicksondickson/ComfyUI-Dickson-Nodes"
     #"https://github.com/TTPlanetPig/Comfyui_TTP_Toolset"
@@ -34,25 +39,25 @@ NODES=(
     #"https://github.com/filliptm/ComfyUI_Fill-Nodes"
     "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
     #"https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
-    "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
-    "https://github.com/rgthree/rgthree-comfy"
+    #"https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
+    #"https://github.com/rgthree/rgthree-comfy"
     "https://github.com/portu-sim/comfyui_bmab"
     "https://github.com/city96/ComfyUI-GGUF"
-    "https://github.com/shiimizu/ComfyUI-TiledDiffusion"
+    #"https://github.com/shiimizu/ComfyUI-TiledDiffusion"
 )
 
 CHECKPOINT_MODELS=(
-    "https://huggingface.co/Kijai/SUPIR_pruned/resolve/main/SUPIR-v0Q_fp16.safetensors"
+    #"https://huggingface.co/Kijai/SUPIR_pruned/resolve/main/SUPIR-v0Q_fp16.safetensors"
     #"https://huggingface.co/camenduru/CCSR/resolve/main/real-world_ccsr.ckpt"
-    "https://huggingface.co/SG161222/RealVisXL_V5.0/resolve/main/RealVisXL_V5.0_fp16.safetensors"
-    "https://huggingface.co/SG161222/RealVisXL_V5.0/resolve/main/RealVisXL_V5.0_fp32.safetensors"
+    #"https://huggingface.co/SG161222/RealVisXL_V5.0/resolve/main/RealVisXL_V5.0_fp16.safetensors"
+    #"https://huggingface.co/SG161222/RealVisXL_V5.0/resolve/main/RealVisXL_V5.0_fp32.safetensors"
     #"https://huggingface.co/alexgenovese/reica_models/resolve/main/realvisxlV40_v40LightningBakedvae.safetensors"
 )
 
 CLIP_MODELS=(
     "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors"
     "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn.safetensors"
-    #"https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
+    "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
 )
 
 UNET_MODELS=(
@@ -75,7 +80,7 @@ ESRGAN_MODELS=(
 )
 
 CONTROLNET_MODELS=(
-    "https://huggingface.co/TTPlanet/TTPLanet_SDXL_Controlnet_Tile_Realistic/resolve/main/TTPLANET_Controlnet_Tile_realistic_v2_fp16.safetensors"
+    #"https://huggingface.co/TTPlanet/TTPLanet_SDXL_Controlnet_Tile_Realistic/resolve/main/TTPLANET_Controlnet_Tile_realistic_v2_fp16.safetensors"
 )
 
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
