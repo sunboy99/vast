@@ -69,7 +69,7 @@ VAE_MODELS=(
 
 LORA_MODELS=(
     "https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-FLUX.1-dev-8steps-lora.safetensors"
-    "https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-FLUX.1-dev-16steps-lora.safetensors"
+    #"https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-FLUX.1-dev-16steps-lora.safetensors"
 )
 
 ESRGAN_MODELS=(
