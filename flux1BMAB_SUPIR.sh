@@ -22,11 +22,11 @@ PIP_PACKAGES=(
 
 NODES=(
     "https://github.com/crystian/ComfyUI-Crystools"
-    "https://github.com/Fannovel16/comfyui_controlnet_aux"
-    "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
+    #"https://github.com/Fannovel16/comfyui_controlnet_aux"
+    #"https://github.com/cubiq/ComfyUI_IPAdapter_plus"
     "https://github.com/WASasquatch/was-node-suite-comfyui"
     "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
-    "https://github.com/giriss/comfy-image-saver"
+    #"https://github.com/giriss/comfy-image-saver"
     #"https://github.com/cubiq/ComfyUI_essentials"
     #"https://github.com/chibiace/ComfyUI-Chibi-Nodes"
     #"https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
@@ -41,7 +41,7 @@ NODES=(
     #"https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
     #"https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
     #"https://github.com/rgthree/rgthree-comfy"
-    "https://github.com/portu-sim/comfyui_bmab"
+    #"https://github.com/portu-sim/comfyui_bmab"
     "https://github.com/city96/ComfyUI-GGUF"
     #"https://github.com/shiimizu/ComfyUI-TiledDiffusion"
 )
@@ -56,12 +56,12 @@ CHECKPOINT_MODELS=(
 
 CLIP_MODELS=(
     "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors"
-    "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn.safetensors"
+    #"https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn.safetensors"
     "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
 )
 
 UNET_MODELS=(
-    "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-F16.gguf"
+    #"https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-F16.gguf"
 )
 
 VAE_MODELS=(
